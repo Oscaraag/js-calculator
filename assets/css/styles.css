@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #04645c;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+
+.calculator-container {
+  margin: 20px auto;
+  width: 520px;
+  height: 900px;
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: 250px 130px 130px 130px 130px 130px;
+  background: black;
+  color: white;
+}
+
+.calculator-screen {
+  display: flex;
+  flex-flow: column;
+  grid-row: 1;
+  grid-column: 1/5;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 4rem;
+  color: #f5f978;
+  overflow: hidden;
+}
+.calculator-screen ­ span {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.calculator-screen .operation {
+  font-size: 25px;
+}
+.calculator-screen .screen {
+  justify-self: end;
+}
+
+.c-button {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+
+.plus-button {
+  grid-row: 4/6;
+  grid-column: 4;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #4f006d;
+  color: #00ffed;
+}
+
+.op-button:hover {
+  background: #00ffed;
+  color: #4f006d;
+}
+
+/*# sourceMappingURL=styles.css.map */

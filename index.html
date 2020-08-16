@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-Calculator</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="calculator-container">
+        <div class="calculator-screen">
+          <span class="operation" id="operation"></span>
+          <span class="screen" id="screen"> </span>
+        </div>
+        <div id="c-button" class="c-button op-button btn">C</div>
+        <div id="div-button" class="btn op-button">/</div>
+        <div id="mul-button" class="btn op-button">*</div>
+        <div id="seven-button" class="btn">7</div>
+        <div id="eight-button" class="btn">8</div>
+        <div id="nine-button" class="btn">9</div>
+        <div id="rest-button" class="btn op-button">-</div>
+        <div id="four-button" class="btn">4</div>
+        <div id="five-button" class="btn">5</div>
+        <div id="six-button" class="btn">6</div>
+        <div id="plus-button" class="plus-button op-button btn">+</div>
+        <div id="one-button" class="btn">1</div>
+        <div id="two-button" class="btn">2</div>
+        <div id="three-button" class="btn">3</div>
+        <div id="zero-button" class="btn">0</div>
+        <div id="zero2-button" class="btn">00</div>
+        <div id="dot-button" class="btn op-button">.</div>
+        <div id="equi-button" class="op-button btn">=</div>
+      </div>
+    </main>
+    <script src="./src/selectors.js"></script>
+    <script src="./src/numbersRender.js"></script>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
