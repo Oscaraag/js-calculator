@@ -30,14 +30,14 @@ body {
   color: #f5f978;
   overflow: hidden;
 }
-.calculator-screen ­ span {
-  margin-top: 20px;
-  padding-right: 20px;
-}
 .calculator-screen .operation {
   font-size: 25px;
 }
-.calculator-screen .screen {
+.calculator-screen span {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.calculator-screen ­ .screen {
   justify-self: end;
 }
 

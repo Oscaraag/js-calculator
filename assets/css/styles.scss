@@ -13,13 +13,9 @@ body {
   font-size: 50px;
 }
 
-div {
-  //   border: 0.5px solid rgba(139, 136, 136, 0.342);
-}
 .calculator-container {
   margin: 20px auto;
   width: 520px;
-
   height: 900px;
   display: grid;
   grid-template-columns: repeat(4, 130px);
@@ -38,14 +34,15 @@ div {
   font-size: 4rem;
   color: #f5f978;
   overflow: hidden;
-  ­ span {
-    margin-top: 20px;
-    padding-right: 20px;
-  }
+
   .operation {
     font-size: 25px;
   }
-  .screen {
+  span {
+    margin-top: 20px;
+    padding-right: 20px;
+  }
+  ­ .screen {
     justify-self: end;
   }
 }
