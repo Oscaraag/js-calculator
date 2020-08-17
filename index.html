@@ -13,24 +13,31 @@
           <span class="operation" id="operation"></span>
           <span class="screen" id="screen"> </span>
         </div>
-        <div id="c-button" class="c-button op-button btn">C</div>
-        <div id="div-button" class="btn op-button">/</div>
-        <div id="mul-button" class="btn op-button">*</div>
-        <div id="seven-button" class="btn">7</div>
-        <div id="eight-button" class="btn">8</div>
-        <div id="nine-button" class="btn">9</div>
-        <div id="rest-button" class="btn op-button">-</div>
-        <div id="four-button" class="btn">4</div>
-        <div id="five-button" class="btn">5</div>
-        <div id="six-button" class="btn">6</div>
-        <div id="plus-button" class="plus-button op-button btn">+</div>
-        <div id="one-button" class="btn">1</div>
-        <div id="two-button" class="btn">2</div>
-        <div id="three-button" class="btn">3</div>
-        <div id="zero-button" class="btn">0</div>
-        <div id="zero2-button" class="btn">00</div>
-        <div id="dot-button" class="btn op-button">.</div>
-        <div id="equi-button" class="op-button btn">=</div>
+
+        <button data-operation="clear" class="c-button op-button btn">C</button>
+        <button data-operation="divide" class="btn op-button">/</button>
+        <button
+          data-operation="
+        multiplier"
+          class="btn op-button"
+        >
+          *
+        </button>
+        <button data-number="7" class="btn">7</button>
+        <button data-number="8" class="btn">8</button>
+        <button data-number="9" class="btn">9</button>
+        <button data-operation="subtraction" class="btn op-button">-</button>
+        <button data-number="4" class="btn">4</button>
+        <button data-number="5" class="btn">5</button>
+        <button data-number="6" class="btn">6</button>
+        <button data-operation="+" class="plus-button op-button btn">+</button>
+        <button data-number="1" class="btn">1</button>
+        <button data-number="2" class="btn">2</button>
+        <button data-number="3" class="btn">3</button>
+        <button data-number="0" class="btn">0</button>
+        <button data-number="00" class="btn">00</button>
+        <button data-operation="decimal" class="btn op-button">.</button>
+        <button data-operation="equal" class="op-button btn">=</button>
       </div>
     </main>
     <script src="./src/selectors.js"></script>
