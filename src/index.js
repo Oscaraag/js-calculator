@@ -1,3 +1,3 @@
-import calculator from './calculator.js'
+import { calculator } from './modules/calculator.js'
 
 calculator()

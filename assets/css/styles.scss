@@ -57,6 +57,14 @@ body {
 }
 .btn {
   @include center();
+  border: none;
+  appearance: none;
+  background: black;
+  color: white;
+  font-size: 2.5rem;
+}
+.btn:focus {
+  outline: none;
 }
 
 .btn:hover {
